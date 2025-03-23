@@ -71,19 +71,19 @@ public class Linked_List {
         Linked_List list = new Linked_List();
 
         // Insert a couple of elements at the front.
-        list.insertAtBeginning(10);
-        list.insertAtBeginning(20);
+        list.insertAtBeginning(15);
+        list.insertAtBeginning(25);
 
         // Insert one element at the end.
-        list.insertAtEnd(30);
+        list.insertAtEnd(35);
 
         // Print the list to verify the insertions.
         System.out.println("Linked List after insertions:");
-        list.printList(); // Expected: 20 -> 10 -> 30 -> null
+        list.printList(); // Expected: 25 -> 15 -> 35 -> null
 
         // Remove the first element and print the list again.
         list.deleteFromBeginning();
         System.out.println("Linked List after deletion from beginning:");
-        list.printList(); // Expected: 10 -> 30 -> null
+        list.printList(); // Expected: 15 -> 35 -> null
     }
 }
